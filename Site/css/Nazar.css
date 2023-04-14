@@ -1,0 +1,96 @@
+body{
+	background-color: black ;
+}
+.neon-line {
+  height: 77.8%;
+  width: 2px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #00ff00, 0 0 80px #00ff00, 0 0 160px #00ff00;
+  position: absolute;
+  left: 0;
+  top: 160px;
+  margin-left: 230px;
+}
+
+.sb {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  transform: skewX(-20deg);
+  transition: all 0.3s ease;
+  width: 150px;
+}
+
+.sb:hover {
+  background-color: white;
+  color: black;
+}
+.position{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1%;
+	margin-top: 15%;
+	gap: 10px;
+}
+.logo{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 180px;
+	height: 160px;
+}
+.Navigation{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1%;
+	margin-top: 7%;
+	gap: 10px;
+}
+.nl{
+		position: absolute;
+		top: 160px;
+		left: 0;
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 10px #fff,
+        			0 0 20px #fff,
+        			0 0 40px #0f0,
+        			0 0 80px #0f0, 
+        			0 0 160px #0f0;
+}
+.zag{
+	color: white;
+	text-align: center;
+	
+}
+.pidzag{
+	color: white;
+	text-align: center;
+	
+}
+p,ul,li,h1{
+	color: white;
+}
+.zakh{
+	position: absolute;
+	left: 20%;
+	top: 25%;
+}
+.sh{
+	width: 500px;
+}
+.q{
+	position: absolute;
+	left: 800px;
+	top: 280px;
+	width: 350px;
+	height: 300px;
+	
+}a{
+	color: inherit;
+}
